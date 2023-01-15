@@ -1,6 +1,6 @@
 # Linux boot service generator
 
-Python script to automatically generate a .service file in /systemd/system for a Python or Go program that will start on boot.
+Python script to automatically generate a .service file in /systemd/system/ for a Python or Go program that will start on boot.
 Depending on your go env you may have to replace the env path in create_go_service.py. Run `which go` on your terminal and 
 make sure it matches `/snap/bin/go`, if it doesnt, replace it with your output.
 
